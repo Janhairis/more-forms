@@ -1,0 +1,15 @@
+p{
+    padding: .5em;
+    margin: 0.25em;
+    /* background-color: blue  */
+}
+input[type *= "submit"]{
+    visibility: hidden;
+
+}
+input:valid{
+    border: .25px solid green
+}
+input:invalid{
+    background-color: rgba(241, 241, 136, 0.59)
+}
